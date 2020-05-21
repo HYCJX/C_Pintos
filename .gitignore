@@ -50,3 +50,34 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore temp files
+*~
+
+# Ignore pdf files (just keep source files)
+*.pdf
+
+# Ignore junk files from latex output
+*.log
+*.aux
+*.dvi
+*.ps
+
+# Ignore other junk files
+*.backup
+*.kate-swp
+*.swp
+*.snm
+*.vrb
+*.nav
+*.toc
+
+# Ignore cLion files
+cmake-build-debug
+CMakeLists.txt
+
+# Ignore .idea dir
+.idea
+
+# Ignore all test files
+*[Tt]est*
