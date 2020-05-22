@@ -79,5 +79,4 @@ CMakeLists.txt
 # Ignore .idea dir
 .idea
 
-# Ignore all test files
-*[Tt]est*
+
